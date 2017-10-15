@@ -1,0 +1,102 @@
+﻿
+/* Notes card  */
+
+#stock-notes .add-stock-note {
+  border: 1px solid #ff9800;
+  border-radius: 3px;
+  color: #ff9800;
+  float: right;
+  font-size: 11pt;
+  font-weight: 300;
+  padding: 0 5px;
+}
+
+#stock-note-title {
+  border-bottom: 1px solid #eee;
+  padding: 0 5px;
+}
+
+#stock-note-body {
+  min-height: 100px;
+  padding: 10px 5px 5px;
+}
+
+
+
+
+
+
+/* Market data card  */
+
+#market-data-card {
+  font-size: 3.25vmin;
+}
+
+#market-data-card .col-20 {
+  font-weight: bolder;
+}
+
+#market-data-card .col-20:last-of-type {
+  text-align: right;
+}
+
+#market-data-card .last-trade {
+  font-size: 3vmin;
+  float: right;
+}
+
+
+
+
+
+/* Stock navbar  */
+
+#stock-navbar ion-header-bar {
+  border: none;
+}
+
+#stock-navbar .back-text {
+  font-size: 11pt;
+}
+
+
+
+
+
+
+#stock-subheader-bar {
+ border-top: none;
+}
+#stock-name {
+  color: #333;
+  float: left;
+  font-size: 3.5vmin;
+  font-weight: normal;
+  margin: auto 0;
+  max-width: 33vw;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+#stock-symbol {
+  font-size: 7vmin;
+  line-height: 32pt;
+}
+
+#stock-change {
+  font-size: 4vmin;
+  font-weight: bolder;
+  float: right;
+  margin: auto 0;
+   text-align: left;
+  text-overflow: ellipsis;
+}
+
+.display-flex {
+  display: flex !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
